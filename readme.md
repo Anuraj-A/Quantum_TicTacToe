@@ -27,14 +27,12 @@ When a player selects two cells, the move enters a **superposition**:
 
 Meaning: the move exists in both cells simultaneously until measured.
 
----
 
 ### ⚡ Step 2: Quantum Collapse (Measurement)
 Using **Qiskit + AerSimulator**, the move is measured:  
 - With 50% chance it collapses into Cell1  
 - With 50% chance it collapses into Cell2  
 
----
 
 ### 🏆 Step 3: Winning
 The board fills with collapsed moves.  
@@ -54,59 +52,50 @@ Think of it like a **quantum coin toss**:
 
 ---
 
-## 🖼️ Demo Screenshot
-assets/img_1.png
----
-assets/img_2.png
----
-assets/img_3.png
-
----
-
 ## 🛠️ Installation & Running
 
-### 1️⃣ Clone the repo
+#### 1️⃣ Clone the repo
 ```bash
 git clone https://github.com/Anuraj-A/Quantum_TicTacToe.git
 cd quantum-tic-tac-toe
-2️⃣ Create virtual environment (recommended)
-bash
+```
+#### 2️⃣ Create virtual environment (recommended)
+```bash
 python3 -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-3️⃣ Install dependencies
-bash
+```
+#### 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-4️⃣ Run the game
-bash
+```
+#### 4️⃣ Run the game
+```bash
 streamlit run improved_quantum_tic_tac_toe_app.py
-📚 Rules of Quantum Tic-Tac-Toe
-Each move starts as a quantum superposition between two cells.
+```
 
-The move collapses randomly to one of the two cells.
+---
 
-A player may end up occupying the opponent’s intended cell due to collapse.
+#### 📚 Rules of Quantum Tic-Tac-Toe:
+- Each move starts as a quantum superposition between two cells.
+- The move collapses randomly to one of the two cells.
+- A player may end up occupying the opponent’s intended cell due to collapse.
+- Game continues until someone gets 3 in a row, or it’s a draw.
 
-Game continues until someone gets 3 in a row, or it’s a draw.
+#### 🎓 Learning Outcomes:
+- Understand superposition and measurement in quantum mechanics.
+- See how randomness emerges naturally in quantum systems.
+- Experience how classical games can be reimagined with quantum rules.
 
-🎓 Learning Outcomes
-Understand superposition and measurement in quantum mechanics.
+#### 🌐 Tech Stack:
+- ⚛️ Qiskit – Quantum simulation
+- 🐍 Python – Core logic
+- 🎨 Streamlit – Web-based interactive UI
 
-See how randomness emerges naturally in quantum systems.
-
-Experience how classical games can be reimagined with quantum rules.
-
-🌐 Tech Stack
-⚛️ Qiskit – Quantum simulation
-
-🐍 Python – Core logic
-
-🎨 Streamlit – Web-based interactive UI
-
-📢 Author
+#### 📢 Author
 👨‍💻 Developed by Anuraj
 🔗 Connect on LinkedIn https://www.linkedlin.com/in/a-anuraj
 
-🧠 Fun Thought
+#### 🧠 Fun Thought
 "In classical Tic-Tac-Toe, strategy wins.
 In Quantum Tic-Tac-Toe, the universe rolls the dice." 🌌
